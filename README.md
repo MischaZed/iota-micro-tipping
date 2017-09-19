@@ -18,31 +18,31 @@ JavaScript library allowing to integrate IOTA micro tipping functionality with l
     
 3) Now that this JavaScript Micro Tipping library is integrated, you need to set markers and data where you want to display micro tipping QR codes, respectively, display current tips. Just apply the necessary data attribute "data-address" and the optional ones "data-tag" and "data-amount" to DOM objects that you want to transform into a micro tipping control
 
-        ```
-        <span data-address="QPLGOG9PMIMUAW9UDMUNZQHPXZPXDNGLBEIHILXHWHIOFHLIHPDDERXAJQKUQDEORMHSUWVZQE9JYSHIWADIIPAOJD" data-tag="A Second Example" data-amount="10000"></span>
-        ```
+    ```
+    <span data-address="QPLGOG9PMIMUAW9UDMUNZQHPXZPXDNGLBEIHILXHWHIOFHLIHPDDERXAJQKUQDEORMHSUWVZQE9JYSHIWADIIPAOJD" data-tag="A Second Example" data-amount="10000"></span>
+    ```
     
 ## Preparation
 - [Download and] include JQuery library
 
-        ```
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        ```
+    ```
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    ```
 
 - [Download and] include JQuery QRcode library
 
-        ```
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
-        ```
+    ```
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    ```
     
 - Download and include IOTA JavaScript library (https://github.com/iotaledger/iota.lib.js/releases)
 
-        ```
-        <script src="js/iota.min.js"></script>
-        ```
+    ```
+    <script src="js/iota.min.js"></script>
+    ```
     
 - Download and include this IOTA Micro Tipping library
 
-        ```
-        <script src="js/iota-micro-tipping.js"></script>
-        ```
+    ```
+    <script src="js/iota-micro-tipping.js"></script>
+    ```
