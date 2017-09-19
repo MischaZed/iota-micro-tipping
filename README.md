@@ -6,7 +6,10 @@ All you need to be able is to **(1)** integrate JavaScript libraries into your w
 Imagine a web application that allows multiple users to register and write blog posts. You give these users an additional field in their user profile to set their donation address. Later, each time a user's blog post is rendered, the template rendering engine adds HTML attributes with the user's donation details, which is then transformed by this library into a micro tipping control field - with the option to display received tips.
     
 ## Demo
-A live sample can be found at https://noneymous.github.io/iota-micro-tipping/sample/sample.html 
+A live sample can be found at 
+
+    https://noneymous.github.io/iota-micro-tipping/sample/sample.html 
+    
 If received donations are not loading, the chosen IOTA full node might be down.
 
 <p align="center">
