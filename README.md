@@ -1,4 +1,4 @@
-# IOTA Micro Tipping
+# IOTA Micro Tipping - A JavaScript Plugin For Web Applications
 JavaScript library allowing to integrate **IOTA micro tipping functionality** with **lowest possible efforts** into any web application. The goal of this micro tipping library is to make implementation as easy as possible in order to allow a wide adoption of IOTA for micro tiping purposes across the Internet. 
 
 All you need to be able is to **(1)** integrate JavaScript libraries into your web site and **(2)** to apply HTML attributes to your HTML code. In the most simple scenario you would statically put them where you want a donation QR code to show up. In more dynamic web applications you could apply these via the template rendering engine dynamically below each relevant item. 
