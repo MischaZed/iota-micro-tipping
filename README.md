@@ -14,7 +14,7 @@ A live sample can be found at https://noneymous.github.io/iota-micro-tipping/sam
 If received donations are not loading, the chosen IOTA full node might be down.
 
 ## License and Donations
-Feel free to use, change, enhance or share this JavaScript library for private or commercial use. Just don't sell it as your intellectual property. If this library was useful for you, please consider donating: 
+Feel free to use, change, enhance or share this JavaScript library for private or commercial use. Just don't sell/present it as your intellectual property. If this library was useful for you, please consider donating: 
     
 **```QPLGOG9PMIMUAW9UDMUNZQHPXZPXDNGLBEIHILXHWHIOFHLIHPDDERXAJQKUQDEORMHSUWVZQE9JYSHIWADIIPAOJD```** (IOTA)
 
