@@ -4,9 +4,10 @@ JavaScript library allowing to integrate IOTA micro tipping functionality with l
 # IOTA Micro Tipping
 JavaScript library allowing to integrate IOTA micro tipping functionality with lowest possible efforts into any web application.
   
-## Application
-1) After including this JavaScript Micro Tipping library in your HTML code, it will initialize itself in default mode. In default mode, no connection to the IOTA network will be established. Hence, only QR codes for micro tipping will be integrated.
-2) If you want to connect to the IOTA network in order to query and display current tips, you need to initialize this JavaScript Micro Tipping library with a full node URL
+## Initialization
+1a) After including this library in your HTML code, it will initialize itself in default mode automatically. In default mode, no connection to the IOTA network will be established. Hence, only QR codes for receiving micro tips will be integrated.
+
+1b) Optionally, you can connect this library to an IOTA full node in order to query and display received tips.
 
     ```
     <script> 
@@ -16,10 +17,9 @@ JavaScript library allowing to integrate IOTA micro tipping functionality with l
     </script>
     ```
     
-3) Now that this JavaScript Micro Tipping library is integrated, you need to set markers and data where you want to display micro tipping QR codes, respectively, display current tips. Just apply the necessary data attribute "data-address" and the optional ones "data-tag" and "data-amount" to DOM objects that you want to transform into a micro tipping control
-
+2) This library will search your HTML code for DOM elements with relevant data attributes. You can use these data attributes to guide this library to DOM elements where you want to inject a micro tipping control. Available data attributes are "data-address" and the optional "data-tag" and "data-amount" ones.
     ```
-    <span data-address="QPLGOG9PMIMUAW9UDMUNZQHPXZPXDNGLBEIHILXHWHIOFHLIHPDDERXAJQKUQDEORMHSUWVZQE9JYSHIWADIIPAOJD" data-tag="A Second Example" data-amount="10000"></span>
+    <span data-address="QPLGOG9PMIMUAW9UDMUNZQHPXZPXDNGLBEIHILXHWHIOFHLIHPDDERXAJQKUQDEORMHSUWVZQE9JYSHIWADIIPAOJD" data-tag="A tag to associate a tip to an item" data-amount="10000"></span>
     ```
     
 ## Preparation
