@@ -3,7 +3,7 @@ JavaScript library allowing to integrate **IOTA micro tipping functionality** wi
 
 All you need to be able is to **(1)** integrate JavaScript libraries into your web site and **(2)** to apply HTML attributes to your HTML code. In the most simple scenario you would statically put them where you want a donation QR code to show up. In more dynamic web applications you could apply these via the template rendering engine dynamically below each relevant item. 
 
-Imagine a web application that allows multiple users to register and write blog posts. You give these users an additional field in their user profile to set their donation address. Later, each time a user's blog post is rendered, the template rendering engine adds HTML attributes with the user's donation details, which is then transformed by this library into a micro tipping control field.
+Imagine a web application that allows multiple users to register and write blog posts. You give these users an additional field in their user profile to set their donation address. Later, each time a user's blog post is rendered, the template rendering engine adds HTML attributes with the user's donation details, which is then transformed by this library into a micro tipping control field - with the option to display received tips.
 <p align="center">
   <img src="https://i.imgur.com/Gc8se0o.png">
 </p>
@@ -13,7 +13,10 @@ Available data attributes are:
 - (Required) **data-address** The recipient address of the micro tip
 - (Optional) **data-tag** A message to include in the transaction. This message will be used to divide tips for different items apart - If your library is set to connect to an IOTA full node and able to query transaction data.
 - (Optional) **data-amount** You may suggest a default IOTA tip amount per item
-  
+<p align="center">
+  <img src="https://i.imgur.com/kjtVhNQ.png">
+</p>
+
 ## Initialization
 1) After including this library in your HTML code, it will automatically initialize itself in default mode. No connection to the IOTA network will be established and only QR codes for receiving micro tips will be integrated.
 
