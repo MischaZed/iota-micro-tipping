@@ -4,9 +4,8 @@ JavaScript library allowing to integrate IOTA micro tipping functionality with l
 All you need to be able is to (1) integrate JavaScript libraries into your web site and (2) to apply HTML attributes to your HTML code. In the most sutpid scenario you would statically put them where you want a donation QR code to show up. In more dynamic web applications you could apply these via the template rendering engine dynamically below each relevant item. 
 
 Imagine a web application that allows multiple users to register and write blog posts. You give these users an additional field in their user profile to set their donation address. Later, each time a user's blog post is rendered, the template rendering engine adds HTML attributes with the user's donation details, which is then transformed by this library into a micro tipping control field.
-
 <p align="center">
-<img src="https://i.imgur.com/Gc8se0o.png">
+  <img src="https://i.imgur.com/Gc8se0o.png">
 </p>
 
 ## Available Data Attributes
