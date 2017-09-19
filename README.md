@@ -14,7 +14,7 @@ JavaScript library allowing to integrate IOTA micro tipping functionality with l
                  $('[data-address]').microtipping("http://iota.bitfinex.com:80"); 
              });       
         </script>
-    ```
+        ```
     
 3) Now that this JavaScript Micro Tipping library is integrated, you need to set markers and data where you want to display micro tipping QR codes, respectively, display current tips. Just apply the necessary data attribute "data-address" and the optional ones "data-tag" and "data-amount" to DOM objects that you want to transform into a micro tipping control
 
