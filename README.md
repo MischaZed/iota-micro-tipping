@@ -41,6 +41,9 @@ Available data attributes are:
   <img src="https://i.imgur.com/kjtVhNQ.png">
 </p>
     
+## Customization
+This IOTA micro tipping library comes with three functions (```initDom()```, 'updateQr()' and 'updateTips()') that can be adapted in order to tailor the micro tipping experience (DOM, CSS, user interaction,...) towards your application.
+    
 ## Preparation
 - [Download and] include JQuery library
 
