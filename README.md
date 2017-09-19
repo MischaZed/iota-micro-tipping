@@ -5,9 +5,9 @@ JavaScript library allowing to integrate IOTA micro tipping functionality with l
 JavaScript library allowing to integrate IOTA micro tipping functionality with lowest possible efforts into any web application.
   
 ## Initialization
-1a) After including this library in your HTML code, it will initialize itself in default mode automatically. In default mode, no connection to the IOTA network will be established. Hence, only QR codes for receiving micro tips will be integrated.
+1) After including this library in your HTML code, it will initialize itself in default mode automatically. In default mode, no connection to the IOTA network will be established. Hence, only QR codes for receiving micro tips will be integrated.
 
-1b) Optionally, you can connect this library to an IOTA full node in order to query and display received tips.
+2) Optionally, you can connect this library to an IOTA full node in order to query and display received tips.
 
     ```
     <script> 
