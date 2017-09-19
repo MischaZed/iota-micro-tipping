@@ -17,6 +17,9 @@ Available data attributes are:
 - (Required) **data-address** The recipient address of the micro tip
 - (Optional) **data-tag** A message to include in the transaction. This message will be used to divide tips for different items apart - If your library is set to connect to an IOTA full node and able to query transaction data.
 - (Optional) **data-amount** You may suggest a default IOTA tip amount per item
+    
+## Customization
+This IOTA micro tipping library comes with three functions ```initDom()```, ```updateQr()``` and ```updateTips()``` that can be adapted in order to tailor the micro tipping experience (DOM, CSS, JavaScript, user interaction,...) fitting your application.
 
 ## Initialization
 1) After including this library in your HTML code, it will automatically initialize itself in default mode. No connection to the IOTA network will be established and only QR codes for receiving micro tips will be integrated.
@@ -40,9 +43,6 @@ Available data attributes are:
 <p align="center">
   <img src="https://i.imgur.com/kjtVhNQ.png">
 </p>
-    
-## Customization
-This IOTA micro tipping library comes with three functions (```initDom()```, 'updateQr()' and 'updateTips()') that can be adapted in order to tailor the micro tipping experience (DOM, CSS, user interaction,...) towards your application.
     
 ## Preparation
 - [Download and] include JQuery library
