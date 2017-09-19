@@ -7,10 +7,11 @@ Imagine a web application that allows multiple users to register and write blog 
     
 ## Demo
 
-https://noneymous.github.io/iota-micro-tipping/sample/sample.html (If received donations are not loading, the chosen IOTA full node might be down.)
+Here is a live demo of this library in action. If donations are not loading, the chosen IOTA full node might be down.
 
 <p align="center">
     <img src="https://i.imgur.com/Gc8se0o.png">
+    https://noneymous.github.io/iota-micro-tipping/sample/sample.html
 </p>
 
 ## License and Donations
