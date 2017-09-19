@@ -10,7 +10,9 @@ Imagine a web application that allows multiple users to register and write blog 
 <p align="center">
     https://noneymous.github.io/iota-micro-tipping/sample/sample.html
     <img src="https://i.imgur.com/Gc8se0o.png">
-    (If donations are not loading, the chosen IOTA full node might be down.)
+</p>
+<p align="center">
+    (If donations are not loading, the chosen IOTA full node might be down)
 </p>
 
 ## License and Donations
